@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <divante_openloyalty translate="title" module="divante_openloyalty">
+                                        <title>Open Loyalty</title>
+                                        <sort_order>200</sort_order>
+                                    </divante_openloyalty>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
